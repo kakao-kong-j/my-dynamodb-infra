@@ -19,3 +19,5 @@ module "dynamodb_table" {
 
   global_secondary_index_map = "${var.global_secondary_index_map}"
 }
+
+resource "null_resource" "example" {}
